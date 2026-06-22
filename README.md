@@ -27,8 +27,7 @@ This repository organizes the code, model files, sample data, project documents,
 ├── docs/presentations/      # Defense and progress presentation slides
 ├── media/images/            # README preview images and extracted demo frames
 ├── media/videos/            # Project demo videos
-├── hardware/                # Hardware notes and wiring summary
-└── archive-notes/           # Notes about excluded local materials
+└── hardware/                # Hardware notes and wiring summary
 ```
 
 ## Technical Stack
@@ -90,10 +89,6 @@ Project documents and presentation materials are kept in `docs/`:
 - Initial, midterm, and final defense slides in `docs/presentations/`
 
 Demo videos are kept in `media/videos/`. A Chinese project index is available in `PROJECT_MATERIALS.md`.
-
-## Notes
-
-This repository is a curated public version of the original project folder. Personal resume files, unrelated software packages, third-party development kits, executable tools, and oversized compressed archives were excluded. See `archive-notes/original-materials.md` for details.
 
 ## License
 
