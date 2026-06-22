@@ -1,0 +1,26 @@
+# Python / MaixPy
+__pycache__/
+*.py[cod]
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Local archives and temporary exports
+*.zip
+*.rar
+*.7z
+*.tmp
+*.bak
+
+# Executables and installers are intentionally not part of this public project repo
+*.exe
+*.dll
+*.sys
+*.reg
+*.msi
+
+# Large generated media exports can be linked from Releases or external storage if needed
+*.avi

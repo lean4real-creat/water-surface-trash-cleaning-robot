@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>微信图片_20230917225111.jpg</filename>
+	<path>E:\360MoveData\Users\Lenovo\Desktop\图片\num\images\微信图片_20230917225111.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bag</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>39</ymin>
+			<xmax>216</xmax>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+</annotation>
