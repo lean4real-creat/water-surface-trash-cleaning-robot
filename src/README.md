@@ -16,4 +16,4 @@ Before running on hardware, verify:
 - Servo/motor channel mapping.
 - Model labels and anchors.
 
-Note: the checked-in `model-11975.kmodel` matches the 8-class model in `models/training-report.json`. The bottle/bag configuration in `main.py` is kept as a template for the trash-specific model if that `.kmodel` is added later.
+Note: the checked-in `model-11975.kmodel` matches the 8-class model in `models/training-report.json`. The bottle/bag configuration in `main.py` is kept as a template for the trash-specific model because a separate final bottle/bag `.kmodel` was not identifiable in the archived local files.
