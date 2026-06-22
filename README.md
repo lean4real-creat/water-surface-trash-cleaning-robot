@@ -4,6 +4,20 @@
 
 This repository collects the source code, trained K210 model, sample dataset, project documents, presentation files, and demo videos for an undergraduate innovation project on an autonomous water-surface trash cleaning robot.
 
+## 中文简介
+
+本项目面向水面漂浮垃圾自动清理场景，设计了一个结合嵌入式视觉识别与执行机构控制的小型清洁机器人方案。项目使用 K210 边缘 AI 开发板进行目标检测，将识别到的垃圾目标与舵机/电机控制联动，实现从视觉感知到机械执行的闭环原型。
+
+仓库内容经过公开展示整理，适合作为申博/科研经历材料查看：
+
+- 项目代码：K210 MaixPy 推理、舵机、电机和 PCA9685 控制程序。
+- 模型材料：可部署 `.kmodel` 模型与训练评估报告。
+- 数据材料：样例图片、类别标签和 XML 标注文件。
+- 项目文档：申报书、中期检查、项目 PDF、初期/中期/结题答辩 PPT。
+- 演示材料：项目运行视频。
+
+更多中文材料索引见 `PROJECT_MATERIALS.md`。
+
 ## Project Overview
 
 The project focuses on a small robotic platform for detecting and collecting floating trash on water. The vision module uses a Kendryte K210 board running MaixPy, with a YOLO-style object detection model converted to `.kmodel`. The control side drives servos and motors through an I2C PCA9685 controller to trigger collection actions after object detection.
