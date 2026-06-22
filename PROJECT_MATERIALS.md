@@ -6,8 +6,7 @@
 
 ## 一、核心技术材料
 
-- `src/maixpy/大创最终项目.py`：项目整合代码，包含 K210 视觉识别和执行机构控制。
-- `src/maixpy/main.py`：K210 目标检测主程序。
+- `src/maixpy/main.py`：整理后的统一入口，包含 K210 视觉识别和舵机联动控制。
 - `src/maixpy/motor.py`、`servo.py`、`stepper.py`、`pca9685.py`：电机、舵机和 PCA9685 PWM 控制模块。
 - `models/model-11975.kmodel`：K210 可部署模型。
 - `models/training-report.json`：训练过程、验证结果和 AP 指标报告。

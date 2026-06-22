@@ -54,10 +54,9 @@ Main goals:
 
 ## Code Entry Points
 
-- `src/maixpy/大创最终项目.py`: integrated detection and actuator-control script.
-- `src/maixpy/main.py`: generated K210 detection script.
+- `src/maixpy/main.py`: unified detection and actuator-control script.
 - `src/maixpy/motor.py`, `servo.py`, `stepper.py`, `pca9685.py`: actuator and PWM driver modules.
-- `src/maixpy/boot.py`, `setup.py`: board setup/support scripts.
+- `src/maixpy/boot.py`: minimal MaixPy boot file.
 
 The final project script initializes the camera and LCD, loads the `.kmodel`, performs object detection, draws detection results, and drives servos when trash is detected.
 
